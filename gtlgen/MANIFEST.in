@@ -1,0 +1,3 @@
+graft gtlgen/templates
+graft gtlgen/static
+include gtlgen/schema.sql

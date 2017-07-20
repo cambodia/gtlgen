@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+	<table class="striped">
+		<thead>
+			<tr class="thin teal-text">
+				<th>Priezvisko</th>
+				<th>Meno</th>
+				<th>Rodné priezv.</th>
+				<th>Dátum nar.</th>
+				<th>Dátum úmr.</th>
+				<th>Vek</th>
+				<th>Číslo hrob. miesta</th>
+				<th>Nájomca</th>
+				<th>Typ hrobu</th>
+				<th>Dátum zapl. nájmu</th>
+				<th>Suma</th>
+				<th>Platnosť</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+	{% for entry in entries %}
+			<tr>
+				<td>{{ entry.del_note }}</td>
+			</tr>
+	{% else %}
+			<tr>
+				<td>Žiadne záznamy.</td>
+			</tr>
+	{% endfor %}
+		</tbody>
+	</table>
+</div>
+{% endblock %}
