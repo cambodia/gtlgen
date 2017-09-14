@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block body %}
+<body>
+<table class="bordered highlight centered">
+	<thead>
+		<tr>
+			<th>Delivery note</th>
+			<th>Pos</th>
+			<th>Part</th>
+			<th>Qty</th>
+			<th>Version</th>
+			<th>Batch</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% for list_item in del_notes %}
+		{% for dict_item in list_item %}
+		<tr>
+			<td>{{ dict_item.del_note }}</td>
+			<td>{{ dict_item.del_note_position }}</td>
+			<td>{{ dict_item.mat_name }}</td>
+			<td>{{ dict_item.qty }}</td>
+			<td>{{ dict_item.version }}</td>
+			<td>{{ dict_item.batch }}</td>
+		</tr>
+		{% endfor %}
+	{% endfor %}
+	</tbody>
+</table>
+</body>
+{% endblock %}

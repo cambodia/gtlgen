@@ -1,0 +1,19 @@
+﻿{% extends "main_header.xml" %}
+{% block material %}
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0692647910000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">SRG.E120-1911</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018433</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">440</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005129597</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AB</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">B2-1602679</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+{% endblock %}

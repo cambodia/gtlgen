@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ShippingNotifications>
+	<ShippingNotification>
+		<Header>
+			<ShipmentType comment="Shipment Type">ASN</ShipmentType>
+			<DespatchDate comment="ASN Date">{{ del_note_date }}</DespatchDate>
+			<CustomerOrgCode comment="Code of organization of customer plant">INA</CustomerOrgCode>
+			<CustomerPlant comment="Plant code of customer plant">{{ customer_number }}</CustomerPlant>
+			<UnloadingPoint comment="Unloading Point of consignee">{{ unloading_point }}</UnloadingPoint>
+			<SupplierNumber comment="Supplier Number">00267400</SupplierNumber>
+			<TransportMode comment="Transport Type">30</TransportMode>
+			<PickupDateTime comment="Pickup Date/Time:">{{ delivery_date }} 08:00</PickupDateTime>
+			<DeliveryDateTime comment="Delivery Date/Time">{{ pickup_date }} 08:00</DeliveryDateTime>
+		</Header>
+		<MaterialPositions>
+		{% for list_item in del_notes %}
+			{% for dict_item in list_item %}
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">{{ dict_item.mat_number }}</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">{{ dict_item.mat_name }}</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">{{ dict_item.del_note }}</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">{{ dict_item.del_note_position }}</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">{{ dict_item.qty }}</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">{{ dict_item.order_number }}</OrderNumber>
+				<OrderPosition comment="Order Position">{{ dict_item.order_position }}</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">{{ dict_item.version }}</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">{{ dict_item.batch }}</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			{% endfor %}
+		{% endfor %}
+		</MaterialPositions>
+	</ShippingNotification>
+</ShippingNotifications>

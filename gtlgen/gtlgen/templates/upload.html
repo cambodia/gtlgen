@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block body %}
+<body>
+	<form action="#">
+		<div class="container">
+			<div class="row">
+				<div class="col s4 offset-s4 s4">
+					<form method=post enctype=multipart/form-data>
+						<input type=file name=file>
+						<input type=submit value=Upload>
+					</form>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+{% endblock %}
