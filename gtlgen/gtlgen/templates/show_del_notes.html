@@ -1,31 +1,42 @@
 {% extends "layout.html" %}
 {% block body %}
 <body>
-<table class="bordered highlight centered">
-	<thead>
-		<tr>
-			<th>Delivery note</th>
-			<th>Pos</th>
-			<th>Part</th>
-			<th>Qty</th>
-			<th>Version</th>
-			<th>Batch</th>
-		</tr>
-	</thead>
-	<tbody>
-	{% for list_item in del_notes %}
-		{% for dict_item in list_item %}
-		<tr>
-			<td>{{ dict_item.del_note }}</td>
-			<td>{{ dict_item.del_note_position }}</td>
-			<td>{{ dict_item.mat_name }}</td>
-			<td>{{ dict_item.qty }}</td>
-			<td>{{ dict_item.version }}</td>
-			<td>{{ dict_item.batch }}</td>
-		</tr>
+	<div class="row">
+		<ul class="collapsible" data-collapsible="accordion">
+			<li class="col s12">
+				<div class="row collapsible-header">
+					<div class="col s1">Delivery note</div>
+					<div class="col s1">Pos</div>
+					<div class="col s4">Part</div>
+					<div class="col s1">Qty</div>
+					<div class="col s1">Box</div>
+					<div class="col s1">Version</div>
+					<div class="col s2">Batch</div>
+				</div>
+			</li>
+		{% for list_item in del_notes %}
+			{% for dict_item in list_item %}
+			<li>
+				<div class="row col s12 collapsible-header">
+					<div class="col s1">{{ dict_item.del_note }}</div>
+					<div class="col s1">{{ dict_item.del_note_position }}</div>
+					<div class="col s4">{{ dict_item.mat_name }}</div>
+					<div class="col s1">{{ dict_item.qty }}</div>
+					<div class="col offset-s1 s1">{{ dict_item.version }}</div>
+					<div class="col s2">{{ dict_item.batch }}</div>
+				</div>
+				<div class="row col s12 collapsible-body">
+					<div class="col offset-s6 s1">
+						<input type="text" name="box" value="{{ dict_item.qty }}">
+					</div>
+					<div class="col s1">
+						<input type="text" name="box_qty" value="1">
+					</div>
+				</div>
+			</li>
+			{% endfor %}
 		{% endfor %}
-	{% endfor %}
-	</tbody>
-</table>
+		</ul>
+	</div>
 </body>
 {% endblock %}

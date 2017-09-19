@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ShippingNotifications>
+	<ShippingNotification>
+		<Header>
+			<ShipmentType comment="Shipment Type">ASN</ShipmentType>
+			<DespatchDate comment="ASN Date">08.17.2017</DespatchDate>
+			<CustomerOrgCode comment="Code of organization of customer plant">INA</CustomerOrgCode>
+			<CustomerPlant comment="Plant code of customer plant">0200</CustomerPlant>
+			<UnloadingPoint comment="Unloading Point of consignee">TERM. 30-7 KULAMA</UnloadingPoint>
+			<SupplierNumber comment="Supplier Number">00267400</SupplierNumber>
+			<TransportMode comment="Transport Type">30</TransportMode>
+			<PickupDateTime comment="Pickup Date/Time:">08.17.2017 08:00</PickupDateTime>
+			<DeliveryDateTime comment="Delivery Date/Time">08.18.2017 08:00</DeliveryDateTime>
+		</Header>
+		<MaterialPositions>
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0832118960000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">IR.7305-BD-2Z-3005-T</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018207</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">864</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005218919</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AA</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">H11600477XX</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0832108220000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">AU.7305-BD-3005</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018208</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">184</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005219035</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AA</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">H11602911XX</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0688902220000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">AU.7208-BD-3005</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018209</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">1001</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005219019</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AA</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">H11607295XX</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+		</MaterialPositions>
+	</ShippingNotification>
+</ShippingNotifications>

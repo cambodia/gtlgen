@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ShippingNotifications>
+	<ShippingNotification>
+		<Header>
+			<ShipmentType comment="Shipment Type">ASN</ShipmentType>
+			<DespatchDate comment="ASN Date">09.18.2017</DespatchDate>
+			<CustomerOrgCode comment="Code of organization of customer plant">INA</CustomerOrgCode>
+			<CustomerPlant comment="Plant code of customer plant">0095</CustomerPlant>
+			<UnloadingPoint comment="Unloading Point of consignee">Dr. G. Schaefflera 1</UnloadingPoint>
+			<SupplierNumber comment="Supplier Number">00267400</SupplierNumber>
+			<TransportMode comment="Transport Type">30</TransportMode>
+			<PickupDateTime comment="Pickup Date/Time:">09.18.2017 08:00</PickupDateTime>
+			<DeliveryDateTime comment="Delivery Date/Time">09.19.2017 08:00</DeliveryDateTime>
+		</Header>
+		<MaterialPositions>
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0864641400000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">AU.NK35/20-0014-DRE-HLX</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018635</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">7560</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005185778</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AA</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">H11604591XX</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0864641400000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">AU.NK35/20-0014-DRE-HLX</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018635</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">2</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">5670</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005185778</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AA</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">H11700177XX</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0864641400000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">AU.NK35/20-0014-DRE-HLX</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018635</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">3</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">2520</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005185778</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AA</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">H11700177XX</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+		</MaterialPositions>
+	</ShippingNotification>
+</ShippingNotifications>

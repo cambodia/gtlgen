@@ -36,7 +36,7 @@ def upload_file():
 			filename_without_ext = filename.rsplit('.', 1)[0]
 			file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 			return redirect(url_for('show', filename_without_ext=filename_without_ext))
-		return '''
+	return '''
     <!doctype html>
     <title>Upload new File</title>
     <h1>Upload new File</h1>
@@ -45,6 +45,7 @@ def upload_file():
          <input type=submit value=Upload>
     </form>
     '''
+
 @app.route('/show/<filename_without_ext>')
 def show(filename_without_ext):
 	csv_name = os.path.join(app.config['UPLOAD_FOLDER'], filename_without_ext) + ".csv"
