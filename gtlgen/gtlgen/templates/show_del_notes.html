@@ -7,11 +7,12 @@
 				<div class="row collapsible-header">
 					<div class="col s1">Delivery note</div>
 					<div class="col s1">Pos</div>
-					<div class="col s4">Part</div>
+					<div class="col s5">Part</div>
 					<div class="col s1">Qty</div>
+					<div class="col s1">Box_qty</div>
 					<div class="col s1">Box</div>
 					<div class="col s1">Version</div>
-					<div class="col s2">Batch</div>
+					<div class="col s1">Batch</div>
 				</div>
 			</li>
 		{% for list_item in del_notes %}
@@ -20,17 +21,20 @@
 				<div class="row col s12 collapsible-header">
 					<div class="col s1">{{ dict_item.del_note }}</div>
 					<div class="col s1">{{ dict_item.del_note_position }}</div>
-					<div class="col s4">{{ dict_item.mat_name }}</div>
-					<div class="col s1">{{ dict_item.qty }}</div>
+					<div class="col s5">{{ dict_item.mat_name }}</div>
+					<div class="col s2">{{ dict_item.qty }}</div>
 					<div class="col offset-s1 s1">{{ dict_item.version }}</div>
-					<div class="col s2">{{ dict_item.batch }}</div>
+					<div class="col s1">{{ dict_item.batch }}</div>
 				</div>
-				<div class="row col s12 collapsible-body">
-					<div class="col offset-s6 s1">
+				<div id="{{ dict_item.del_note }}-{{ dict_item.del_note_position }}" class="row col s12 collapsible-body" >
+					<div class="col offset-s8 s1">
 						<input type="text" name="box" value="{{ dict_item.qty }}">
 					</div>
 					<div class="col s1">
 						<input type="text" name="box_qty" value="1">
+					</div>
+					<div class="col s1">
+						<a class="waves-effect waves-light btn">+</a>
 					</div>
 				</div>
 			</li>

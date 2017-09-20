@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ShippingNotifications>
+	<ShippingNotification>
+		<Header>
+			<ShipmentType comment="Shipment Type">ASN</ShipmentType>
+			<DespatchDate comment="ASN Date">09.20.2017</DespatchDate>
+			<CustomerOrgCode comment="Code of organization of customer plant">INA</CustomerOrgCode>
+			<CustomerPlant comment="Plant code of customer plant">0045</CustomerPlant>
+			<UnloadingPoint comment="Unloading Point of consignee">R-H1</UnloadingPoint>
+			<SupplierNumber comment="Supplier Number">00267400</SupplierNumber>
+			<TransportMode comment="Transport Type">30</TransportMode>
+			<PickupDateTime comment="Pickup Date/Time:">09.20.2017 08:00</PickupDateTime>
+			<DeliveryDateTime comment="Delivery Date/Time">09.21.2017 08:00</DeliveryDateTime>
+		</Header>
+		<MaterialPositions>
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0692764710000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">SRG.LE25-1911</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018660</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">2520</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005129636</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AB</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">303152</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0692668590000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">SRG.E30-1911</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018661</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">23406</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005129605</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AB</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">616120981</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0692668590000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">SRG.E30-1911</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018661</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">2</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">282</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005129605</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AB</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">616120981</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0692647910000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">SRG.E120-1911</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018662</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">103</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005129597</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AB</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">B2-1602679</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0585914510000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">AU.208-2N-0037</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018663</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">702</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005129608</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AB</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">H11603594XX</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0585208800000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">AU.207-B-AH02-0037</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018664</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">1200</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005129726</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AB</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">H11605303XX</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+			
+			<MaterialPosition>
+				<CustomerNumber comment="Customer Material Number">0818065070000</CustomerNumber>
+				<CustomerDescription comment="Customer Material Description">AU.SH30-B-2S-0037</CustomerDescription>
+				<DeliveryNoteNumber comment="Delivery Note Number">80018665</DeliveryNoteNumber>
+				<DeliveryNotePosition comment="Delivery Note Position">1</DeliveryNotePosition>
+				<DeliveryQuantity comment="Delivery Quantity">2254</DeliveryQuantity>
+				<DeliveryQuantityUom comment="Unit of Measure">PCE</DeliveryQuantityUom>
+				<OrderNumber comment="Order Number">0005129545</OrderNumber>
+				<OrderPosition comment="Order Position">10</OrderPosition>
+				<EngineeringChangeLevel comment="Engineering Change Level">AA</EngineeringChangeLevel>
+				<BatchNumber comment="Batch Number (Pos.-Level)">H11505353XX</BatchNumber>
+				<IncoTerms>
+					<Code comment="Incoterms Code">EXW</Code>
+				</IncoTerms>
+				<CountryOfOrigin comment="Country of Origin">CN</CountryOfOrigin>
+			</MaterialPosition>
+			
+		
+		</MaterialPositions>
+	</ShippingNotification>
+</ShippingNotifications>
